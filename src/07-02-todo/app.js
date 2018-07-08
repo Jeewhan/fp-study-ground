@@ -24,6 +24,7 @@ const TodoApp = (() => {
       this._newTodoListen();
       this._eventListen();
       this._render();
+      console.log(this);
     }
 
     _save() {
